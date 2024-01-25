@@ -3,7 +3,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = "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"
+openai.api_key =  os.environ.get("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")
 
 def display_chat_history(messages):
     for message in messages:
