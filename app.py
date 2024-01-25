@@ -1,6 +1,8 @@
 # app.py
+
 import streamlit as st
 import openai
+import os
 
 # Set your OpenAI API key
 openai.api_key =  os.environ.get("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")
